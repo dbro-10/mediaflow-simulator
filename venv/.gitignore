@@ -1,0 +1,21 @@
+# Virtual environment — never commit this
+venv/
+
+# SQLite database file — generated at runtime, not source code
+*.db
+*.sqlite3
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables — never commit secrets
+.env
+
+# VS Code workspace settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
