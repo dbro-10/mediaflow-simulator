@@ -1,0 +1,1 @@
+The dashboard is deployed on Streamlit Community Cloud — this is the frontend. It's showing a connection error because the FastAPI backend is designed to run locally or on a separate server. If I run the backend locally and tunnel it, or deploy it to Render, the full pipeline becomes live. The architecture deliberately separates the two concerns.
